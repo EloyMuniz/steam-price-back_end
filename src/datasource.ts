@@ -8,7 +8,7 @@ export const AppDataSource = new DataSource({
     port: 5432,
     username: "postgres",
     password: process.env.LOCALDATABASEPASS,
-    database: "stock-sync",
+    database: "steam-tracker",
     synchronize: true, // Apenas para ambiente de desenvolvimento
     logging: false,
     entities: ["src/entities/*.ts"], // Caminho das entidades
